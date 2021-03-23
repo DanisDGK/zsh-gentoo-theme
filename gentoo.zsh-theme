@@ -25,4 +25,4 @@ gentoo_precmd() {
 autoload -U add-zsh-hook
 add-zsh-hook precmd gentoo_precmd
 
-PROMPT='%(!.%B%F{red}.%B%F{green}%n@)%m %F{blue}%(!.%1~.%~) %(!.#.$)% '
+PROMPT='%(!.%B%F{red}.%B%F{green}%n@)%m %F{blue}%(!.%1~.%~) %(!.#.$)%  '
